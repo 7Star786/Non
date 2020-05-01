@@ -86,7 +86,7 @@ os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92m7Star-Hard-Worker-Team
-\033[1;87mInstagram \033[1;93m: \033[1;92m 7Star786
+\033[1;96mInstagram \033[1;93m: \033[1;92m 7Star786
 \033[1;96mFacebook  \033[1;93m: \033[1;92m -hacker786
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/7Star786/4you
 \033[1;91m=================================================
@@ -97,9 +97,9 @@ CorrectPassword = "7star"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;96mUsername Of Tool \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[☆] \x1b[1;91mUsername Of Tool \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;87mPassword Of Tool \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[☆] \x1b[1;91mPassword Of Tool \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
